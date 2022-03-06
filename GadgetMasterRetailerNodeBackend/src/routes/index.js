@@ -11,7 +11,7 @@ router.get('/', function (req, res, next) {
     let response = {
         app_name: 'GadgetMart Node Backend',
         developers: [{
-            name: 'Uvindu Mohotti',
+            name: 'Ramesh Dilshan',
         }],
     }
     res.status(200).send(response);
